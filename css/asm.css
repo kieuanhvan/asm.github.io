@@ -249,4 +249,9 @@ div.course_tintuc{
 	#index{
 		padding: 80px 80px 80px 40px;
 	}
+	.sale_ok{
+	border-radius: 18px;
+	/*flex: 30%;*/
+	width: 150px;
+	}
 }

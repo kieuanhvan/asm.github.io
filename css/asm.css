@@ -246,4 +246,7 @@ div.course_tintuc{
 	.price1{
 		text-decoration: line-through;
 	}
+	#index{
+		padding: 80px 80px 80px 40px;
+	}
 }

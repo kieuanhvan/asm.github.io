@@ -1,0 +1,66 @@
+/*thanh me nu*/
+div > a{
+	font-size: 20px;
+	font-family: sans-serif;
+	color: #d0d9db;
+	font-weight: bold;
+	padding: 20px;
+	display: block;
+	float: left;
+}
+div > a:hover{
+	background-color: #04d112;
+	color: #befc12;
+	text-decoration: underline;
+}
+.float_left{
+	float: left;
+	text-decoration: none;
+}
+.float_right{
+	float: right;
+	text-decoration: none;
+}
+#menu_side{
+	background-color: #243e47;
+	overflow: hidden;
+
+}
+
+
+
+*{
+	margin: 0;
+}
+
+.container{
+	width: 1400px;
+	margin: auto;
+	font-size: 28px;
+}
+
+header{
+	height: 350px; 
+	/*background:url(https://images.squarespace-cdn.com/content/v1/5ee28afd65e8c86582353ee8/1593523894620-VHB2TRJIJ4754JINC45T/BE-MINDFUL-WEB.gif) no-repeat 5px 13px;*/
+	background:url(https://i.gifer.com/TXwH.gif) no-repeat ;
+	background-size: 100% 100%;
+}
+.container > main > article{
+	width: 75%; min-height: 500px; float: left;
+	background-color: #ebf2f7;
+	/*padding-left: 20px;*/
+}
+.container > main > aside{
+	width: 24.7%; min-height: 500px; float: right;
+	background-color: #daf7de;
+}
+.container > footer{
+	height: 60px;
+	clear: both;
+	border-top: 9px double red;
+	text-align: center;
+	margin: 0;
+	padding: 15px 10px 10px 10px;
+	background-color: black;
+	color: white;
+}

@@ -4,11 +4,12 @@
 	background-image: url(https://i.pinimg.com/originals/48/8c/28/488c2816011b6bbc80641b7a571a3d7f.gif);
 	background-size: 100%;
 	color: #28fcf9;
-	text-align: center;
+	/*text-align: center;*/
 	letter-spacing: 5px;/*khoang cach cac chu*/
 	text-shadow: 1px 2px 4px ;
 	font-size: 50px;
 	font-variant: small-caps;/*viet hoa chu*/
+	text-align: center;
 }
 *{
 	margin: 0;
@@ -235,10 +236,16 @@ div.course_tintuc{
 }
 @media(max-width: 450px){
 	.course_item{
-		flex: 100%;
+		flex: 50%;
 	}
 	.course_item3{
-		flex: 100%;
+		flex: 20%;
+	}
+
+	.sale_ok{
+	border-radius: 18px;
+	/*flex: 30%;*/
+	width: 150px;
 	}
 	.course_item2{
 		flex: 100%;
@@ -246,12 +253,8 @@ div.course_tintuc{
 	.price1{
 		text-decoration: line-through;
 	}
+
 	#index{
 		padding: 80px 80px 80px 40px;
-	}
-	.sale_ok{
-	border-radius: 18px;
-	/*flex: 30%;*/
-	width: 150px;
 	}
 }

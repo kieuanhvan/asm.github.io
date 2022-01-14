@@ -1,22 +1,25 @@
 /*thanh menu*/
 #menu_side{
-	background-color: #243e47;
+	/*background-color: #243e47;*/
 	overflow: hidden;
 
 }
 div > a{
 	font-size: 20px;
 	font-family: sans-serif;
-	color: #d0d9db;
+	color: #0000ed;
 	font-weight: bold;
-	padding: 20px;
+	padding: 22px;
 	display: block;
 	float: left;
+	text-shadow: 5px -3px 5px #f716d2;
 }
 div > a:hover{
 	background-color: #04d112;
-	color: #befc12;
+	color: red;
 	text-decoration: underline;
+	transition-delay: 0.05s;
+	font-size: 10px;
 }
 .float_left{
 	float: left;
@@ -25,8 +28,15 @@ div > a:hover{
 .float_right{
 	float: right;
 	text-decoration: none;
+	font-size: 20px;
+	font-family: sans-serif;
+	color: #0000ed;
+	font-weight: bold;
+	padding: 22px;
+	display: block;
+	text-shadow: 5px -3px 5px #f716d2;
 }
-#animal_container{
+.animal_container{
 	display: flex;
 	flex-wrap: wrap;
 
@@ -50,7 +60,7 @@ div > a:hover{
 	letter-spacing: 3px;
 	font-variant: small-caps;
 }
-#animal_top{
+.animal_top{
 	font-size: 30px;
 	letter-spacing: 4px;
 	font-variant: small-caps;

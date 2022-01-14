@@ -22,8 +22,10 @@ div > a{
 }
 div > a:hover{
 	background-color: #04d112;
-	color: #befc12;
+	color: red;
 	text-decoration: underline;
+	transition-delay: 0.05s;
+	font-size: 30px;
 }
 .float_left{
 	flex: 33%;

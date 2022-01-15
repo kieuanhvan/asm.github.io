@@ -13,6 +13,10 @@ function init(){
 }
 window.onload = init;
 
+
+
+
+
 // nhap ten
 function getName(){
 		var name = prompt("Nhập vô tên anh bạn: ");

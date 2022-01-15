@@ -6,88 +6,7 @@
 	<script src="js/lienhe.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/lienhe.css">
 	<title>kieuanhvan</title>
-	<style>
-		.float_left1{
-			float: left;
-			padding-right: 10px;
-			float: left;
-			font-size: 25px;
-			color: #fa00c8;
-			font-weight: 900;
-		}
-		.float_left2{
-			float: right;
-		}
 
-		/*dieu chinh .......*/
-		#name{
-			float: left;
-			font-size: 25px;
-			color: #00fa1d;
-			font-weight: 900;
-			text-shadow: 5px -4px 5px #fa9a00;
-		}
-		#sdt{
-			float: left;
-			float: left;
-			font-size: 25px;
-			color: #00fa1d;
-			font-weight: 900;
-			text-shadow: 5px -4px 5px #fa9a00;
-		}
-		#address{
-			float: left;
-			float: left;
-			font-size: 25px;
-			color: #00fa1d;
-			font-weight: 900;
-			text-shadow: 5px -4px 5px #fa9a00;
-		}
-		#que{
-			float: left;
-			float: left;
-			font-size: 25px;
-			color: #00fa1d;
-			font-weight: 900;
-			text-shadow: 5px -4px 5px #fa9a00;
-		}
-		#menu_side{
-	/*background-color: #243e47;*/
-	overflow: hidden;
-
-}
-
-div > a:hover{
-	background-color: #04d112;
-	color: red;
-	text-decoration: underline;
-	transition-delay: 0.05s;
-	font-size: 10px;
-}
-.float_left{
-	float: left;
-	text-decoration: none;
-	font-size: 20px;
-	font-family: sans-serif;
-	color: #0000ed;
-	font-weight: bold;
-	padding: 22px;
-	display: block;
-	float: left;
-	text-shadow: 5px -3px 5px #f716d2;
-	
-}
-.float_right{
-		float: right;
-		text-decoration: none;
-		font-size: 20px;
-		font-family: sans-serif;
-		color: #0000ed;
-		font-weight: bold;
-		padding: 22px;
-		display: block;
-		text-shadow: 5px -3px 5px #f716d2;
-	</style>
 </head>
 <body>
 		<div id="menu_side">
@@ -102,7 +21,7 @@ div > a:hover{
 		<div id="container_end">
 			<div id="float_left_end">
 				<p id="thacmac"> Bạn có thắc mắc ? Hãy đặt câu hỏi cho chúng tôi.</p>
-				<button id="EnterName">Nhập vô tên mày </button>
+				<button id="EnterName">Nhập vô tên </button>
 				<div>
 					<p class="float_left1">FullName(Tên): </p>
 					<p class="float_left2"></p>
@@ -132,7 +51,8 @@ div > a:hover{
 					<p class="float_left2"></p>
 					<p id="que"> </p>
 				</div><br><br><br><br><br><br>
-				<button>Gửi</button>
+				<!-- <button>Gửi</button> -->
+				<a id="send_massage" href="tongquan.html">Gửi</a>
 			</div>
 
 			<div id="float_right_end">

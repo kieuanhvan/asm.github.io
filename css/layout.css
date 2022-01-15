@@ -10,11 +10,11 @@ div > a{
 	text-shadow: 5px -3px 5px #f716d2;
 }
 div > a:hover{
-	background-color: #04d112;
 	color: red;
 	text-decoration: underline;
 	transition-delay: 0.05s;
 	font-size: 10px;
+	transition: 0.4s;
 }
 .float_left{
 	float: left;
@@ -71,14 +71,24 @@ header{
 	background-image: url(https://www.paylessmarkets.com/img/ui/backgrounds/banana-leaf.jpg);
 }
 .container > footer{
-	height: 60px;
+	height: 80px;
 	clear: both;
-	border-top: 9px double red;
+	/*border-top: 9px double red;*/
 	text-align: center;
 	margin: 0;
-	padding: 15px 10px 10px 10px;
-	background-color: black;
+	padding: 45px 10px 45px 10px;
+	/*background-color: black;*/background-color: #E41980;
+	background: -webkit-linear-gradient(140deg,#E41980 10%,#67146E 60%);
+	background: linear-gradient(140deg,#E41980 10%,#67146E 70%);
+	 /*padding: 28px 0; */
+    width: 100%;
 	color: white;
+	background-repeat: no-repeat;
+}
+#footer{
+	padding-top: 25px;
+	font-size: 30px;
+	font-weight: 900;
 }
 .icons{
 	padding: 20px;
@@ -94,5 +104,5 @@ header{
 }
 /**/
 body{
-	background-color: #d2e895;
+	background-color: #d5f7f1;
 }

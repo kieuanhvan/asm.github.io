@@ -21,7 +21,9 @@ div > a{
 	color: #6fff00;
 }
 div > a:hover{
-	background-color: #04d112;
+	/*background-color: #04d112;*/
+	transition: 0.4s;
+	
 	color: red;
 	text-decoration: underline;
 	transition-delay: 0.05s;
